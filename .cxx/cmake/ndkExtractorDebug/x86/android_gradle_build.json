@@ -1,0 +1,366 @@
+{
+  "stringTable": {
+    "0": "C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=C:/Users/ahmed/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ahmed/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DOBOE_ENABLE_LOGGING=1 -DUSE_FFMPEG=0 -Dnative_lib_EXPORTS -I../../../../third_party -I../../../../src/main/cpp -I../../../../../../include -I../../../../../../samples -IC:/Users/ahmed/Downloads/Compressed/oboe-master/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -O0 -fno-limit-debug-info -fPIC -std=c++14 -Wall -Werror",
+    "2": "--target=i686-none-linux-android21 --gcc-toolchain=C:/Users/ahmed/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ahmed/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DOBOE_ENABLE_LOGGING=1 -DUSE_FFMPEG=0 -I../../../../third_party -I../../../../src/main/cpp -I../../../../../../src -I../../../../../../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -O0 -fno-limit-debug-info -fPIC -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror"
+  },
+  "buildFiles": [
+    "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\CMakeLists.txt",
+    "C:\\Users\\ahmed\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\ahmed\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\ahmed\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\.cxx\\cmake\\ndkExtractorDebug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\ahmed\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\.cxx\\cmake\\ndkExtractorDebug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "oboe-Debug-x86": {
+      "buildCommand": "C:\\Users\\ahmed\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\.cxx\\cmake\\ndkExtractorDebug\\x86\" oboe",
+      "buildType": "debug",
+      "toolchain": "3478434471",
+      "abi": "x86",
+      "artifactName": "oboe",
+      "files": [
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\aaudio\\AAudioLoader.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\aaudio\\AudioStreamAAudio.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\AudioSourceCaller.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\AudioStream.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\AudioStreamBuilder.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\DataConversionFlowGraph.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\FilterAudioStream.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\FixedBlockAdapter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\FixedBlockReader.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\FixedBlockWriter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\LatencyTuner.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\SourceFloatCaller.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\SourceI16Caller.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\SourceI24Caller.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\SourceI32Caller.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\Utilities.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\QuirksManager.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\fifo\\FifoBuffer.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\fifo\\FifoController.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\fifo\\FifoControllerBase.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\fifo\\FifoControllerIndirect.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\FlowGraphNode.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\ChannelCountConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\ClipToRange.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\ManyToMultiConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\MonoToMultiConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\MultiToMonoConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\RampLinear.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\SampleRateConverter.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\SinkFloat.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\SinkI16.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\SinkI24.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\SinkI32.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\SourceFloat.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\SourceI16.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\SourceI24.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\SourceI32.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\resampler\\IntegerRatio.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\resampler\\LinearResampler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\resampler\\MultiChannelResampler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\resampler\\PolyphaseResampler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\resampler\\PolyphaseResamplerMono.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\resampler\\PolyphaseResamplerStereo.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\resampler\\SincResampler.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\flowgraph\\resampler\\SincResamplerStereo.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\opensles\\AudioInputStreamOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\opensles\\AudioOutputStreamOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\opensles\\AudioStreamBuffered.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\opensles\\AudioStreamOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\opensles\\EngineOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\opensles\\OpenSLESUtilities.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\opensles\\OutputMixerOpenSLES.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\StabilizedCallback.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\Trace.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\src\\common\\Version.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\.cxx\\cmake\\ndkExtractorDebug\\x86\\oboe-bin\\liboboe.a"
+    },
+    "native-lib-Debug-x86": {
+      "buildCommand": "C:\\Users\\ahmed\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\.cxx\\cmake\\ndkExtractorDebug\\x86\" native-lib",
+      "buildType": "debug",
+      "toolchain": "3478434471",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\src\\main\\cpp\\Game.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\src\\main\\cpp\\audio\\AAssetDataSource.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\src\\main\\cpp\\audio\\Player.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\src\\main\\cpp\\ui\\OpenGLFunctions.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\src\\main\\cpp\\utils\\UtilityFunctions.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\src\\main\\cpp\\audio\\NDKExtractor.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\src\\main\\cpp\\utils\\logging.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Users\\ahmed\\Downloads\\Compressed\\oboe-master\\samples\\RhythmGame\\build\\intermediates\\cmake\\ndkExtractorDebug\\obj\\x86\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3478434471": {
+      "cppCompilerExecutable": "C:\\Users\\ahmed\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

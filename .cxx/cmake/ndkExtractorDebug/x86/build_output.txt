@@ -1,0 +1,2 @@
+Using NDK media extractor
+Configuring done

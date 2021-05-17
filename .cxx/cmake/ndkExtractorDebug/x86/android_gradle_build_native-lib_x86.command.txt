@@ -1,0 +1,7 @@
+Executable : C:\Users\ahmed\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\ahmed\Downloads\Compressed\oboe-master\samples\RhythmGame\.cxx\cmake\ndkExtractorDebug\x86
+native-lib
+jvmArgs : 
+

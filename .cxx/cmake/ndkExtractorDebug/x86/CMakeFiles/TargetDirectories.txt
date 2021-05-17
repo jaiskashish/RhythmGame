@@ -1,0 +1,14 @@
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/CMakeFiles/native-lib.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/CMakeFiles/install/local.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/CMakeFiles/install.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/CMakeFiles/edit_cache.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/CMakeFiles/rebuild_cache.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/CMakeFiles/list_install_components.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/CMakeFiles/install/strip.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/oboe-bin/CMakeFiles/oboe.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/oboe-bin/CMakeFiles/install/local.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/oboe-bin/CMakeFiles/install.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/oboe-bin/CMakeFiles/edit_cache.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/oboe-bin/CMakeFiles/rebuild_cache.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/oboe-bin/CMakeFiles/list_install_components.dir
+C:/Users/ahmed/Downloads/Compressed/oboe-master/samples/RhythmGame/.cxx/cmake/ndkExtractorDebug/x86/oboe-bin/CMakeFiles/install/strip.dir

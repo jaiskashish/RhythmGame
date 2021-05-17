@@ -1,0 +1,31 @@
+ninja: Entering directory `C:\Users\ahmed\Downloads\Compressed\oboe-master\samples\RhythmGame\.cxx\cmake\ndkExtractorDebug\x86'
+[1/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o
+[2/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o
+[3/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o
+[4/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o
+[5/47] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/Game.cpp.o
+FAILED: CMakeFiles/native-lib.dir/src/main/cpp/Game.cpp.o 
+C:\Users\ahmed\AppData\Local\Android\Sdk\ndk\21.1.6352462\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/ahmed/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/ahmed/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DOBOE_ENABLE_LOGGING=1 -DUSE_FFMPEG=0 -Dnative_lib_EXPORTS -I../../../../third_party -I../../../../src/main/cpp -I../../../../../../include -I../../../../../../samples -IC:/Users/ahmed/Downloads/Compressed/oboe-master/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -O0 -fno-limit-debug-info  -fPIC   -std=c++14 -Wall -Werror -MD -MT CMakeFiles/native-lib.dir/src/main/cpp/Game.cpp.o -MF CMakeFiles\native-lib.dir\src\main\cpp\Game.cpp.o.d -o CMakeFiles/native-lib.dir/src/main/cpp/Game.cpp.o -c ../../../../src/main/cpp/Game.cpp
+../../../../src/main/cpp/Game.cpp:173:54: error: argument type 'AAssetManager' is incomplete
+            AAssetDataSource::newFromCompressedAsset(mAssetManager, "CLAP.mp3")
+                                                     ^~~~~~~~~~~~~
+C:/Users/ahmed/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\android/asset_manager.h:40:8: note: forward declaration of 'AAssetManager'
+struct AAssetManager;
+       ^
+../../../../src/main/cpp/Game.cpp:183:54: error: argument type 'AAssetManager' is incomplete
+            AAssetDataSource::newFromCompressedAsset(mAssetManager, "FUNKY_HOUSE.mp3")
+                                                     ^~~~~~~~~~~~~
+C:/Users/ahmed/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\android/asset_manager.h:40:8: note: forward declaration of 'AAssetManager'
+struct AAssetManager;
+       ^
+2 errors generated.
+[6/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/SourceI16Caller.cpp.o
+[7/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/SourceI32Caller.cpp.o
+[8/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/SourceI24Caller.cpp.o
+[9/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/ChannelCountConverter.cpp.o
+[10/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/QuirksManager.cpp.o
+[11/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/FlowGraphNode.cpp.o
+[12/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o
+[13/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o
+[14/47] Building CXX object oboe-bin/CMakeFiles/oboe.dir/src/flowgraph/RampLinear.cpp.o
+ninja: build stopped: subcommand failed.
